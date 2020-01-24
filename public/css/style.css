@@ -1,9 +1,106 @@
 svg {
     width: 5em;
     height: 5em;
+    margin: 10px;
 }
 
 .ucf {
     width: 15em;
     height: 15em;
+}
+
+.nav-icon {
+    width: 2.5em;
+    height: 2.5em;
+    fill: #fb00b5;
+}
+
+.nav-icon:hover {
+
+    fill: #620ae9;
+}
+
+.sticky-top {
+    padding-right: 3em;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.card
+{
+    background-color: white;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border: 1px solid #fb00b5;
+}
+.card:before, .card:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.card:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+.jumbotron {
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #fb00b5;
+    height: 50em;
+    margin-bottom: -3em;
+}
+
+.tagline {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 100%;
+    border-top: 1px solid #fb00b5;
+    border-bottom: 1px solid #fb00b5;
+}
+
+h1 {
+    padding: 5px;
+}
+
+#tagline {
+    padding: 5px;
+}
+
+html {
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+#section-header {
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+hr {
+    width: 25em;
+    background-color: #fb00b5
 }
