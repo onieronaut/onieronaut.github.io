@@ -26,10 +26,12 @@ svg {
 
 body {
     background: rgba(0, 0, 0, 0.1);
+    margin-top: -4em;
 }
 
-.card
+.main
 {
+    width: 100em;
     background-color: white;
     position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -37,7 +39,7 @@ body {
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     border: 1px solid #fb00b5;
 }
-.card:before, .card:after
+.main:before, .main:after
 {
     content:"";
     position:absolute;
@@ -52,7 +54,7 @@ body {
     -moz-border-radius:100px / 10px;
     border-radius:100px / 10px;
 }
-.card:after
+.main:after
 {
     right:10px;
     left:auto;
@@ -69,7 +71,7 @@ body {
     background-position: center;
     background-size: cover;
     border-bottom: 1px solid #fb00b5;
-    height: 50em;
+    height: 45em;
     margin-bottom: -3em;
 }
 
@@ -90,17 +92,33 @@ h1 {
     padding: 5px;
 }
 
-html {
-    margin-left: -1em;
-    margin-right: -1em;
-}
-
 #section-header {
     margin-top: 5em;
     margin-bottom: 3em;
 }
 
-hr {
-    width: 25em;
-    background-color: #fb00b5
+.project {
+    width: 20em;
+    margin-bottom: 3em;
+}
+
+.card-img-top {
+    
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.project-box {
+    padding: 1em;
+    margin-bottom: 5em;
+}
+
+.card:hover {
+    border: 1px solid #fb00b5
+}
+
+.links {
+    transition: 500ms;
 }
