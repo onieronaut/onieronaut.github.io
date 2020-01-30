@@ -102,10 +102,6 @@ h1 {
     margin-bottom: 3em;
 }
 
-.card-img-top {
-    
-}
-
 .card {
     margin: 0 auto;
 }
@@ -121,4 +117,51 @@ h1 {
 
 .links {
     transition: 500ms;
+}
+
+.headline {
+    font-family: 'Staatliches', cursive;
+    font-size: 7em;
+}
+
+#tagline {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.5em;
+}
+
+#section-header {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+}
+
+hr {
+    background-color:#fb00b5;
+    width: 3em;
+}
+
+#college-header {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5em;
+}
+
+.card-subtitle {
+    font-family: 'Barlow', sans-serif;
+    color: #666;
+    font-size: .9em;
+}
+
+#college-body {
+    font-family: 'Barlow', sans-serif;
+    color: #666;
+    font-size: 1.25em;
+}
+
+.card-text {
+    margin-top: 1em;
 }
