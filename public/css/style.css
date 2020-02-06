@@ -1,3 +1,6 @@
+html {
+
+}
 svg {
     width: 5em;
     height: 5em;
@@ -20,9 +23,9 @@ svg {
     fill: #620ae9;
 }
 
-.sticky-top {
+/* .sticky-top {
     padding-right: 3em;
-}
+} */
 
 body {
     background: rgba(0, 0, 0, 0.1);
@@ -31,7 +34,7 @@ body {
 
 .main
 {
-    width: 100em;
+    /* width: 100em; */
     background-color: white;
     position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -164,4 +167,10 @@ hr {
 
 .card-text {
     margin-top: 1em;
+}
+
+#bio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    line-height: 1;
 }

@@ -4,10 +4,11 @@ function createProjects() {
     for (let i=0; i < projects.length; i++) {
 
         const {name, url, tools, github, description, image} = projects[i];
+
         
         let newHr = $("<hr>");
         
-        let newProject = $("<div>").addClass("col-sm-4 project-box");
+        let newProject = $("<div>").addClass("col-4 project-box");
         let newCard = $("<div>").addClass("card project");
         let newWebLink = $("<a>").attr({href: url, target: "_blank"});
         let newImage = $("<img>").addClass("card-img-top").attr("src", image);
