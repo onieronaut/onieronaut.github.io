@@ -68,11 +68,12 @@ body {
             transform:skew(8deg) rotate(3deg);
 }
 
-.jumbotron {
+.jumbotron-fluid {
     background-image: url(../assets/img/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     border-bottom: 1px solid #fb00b5;
     height: 45em;
     margin-bottom: -3em;
