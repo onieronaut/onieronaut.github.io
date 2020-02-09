@@ -8,7 +8,7 @@ function createProjects() {
         
         let newHr = $("<hr>");
         
-        let newProject = $("<div>").addClass("col-4 project-box");
+        let newProject = $("<div>").addClass("col-4-sm project-box");
         let newCard = $("<div>").addClass("card project");
         let newWebLink = $("<a>").attr({href: url, target: "_blank"});
         let newImage = $("<img>").addClass("card-img-top").attr("src", image);

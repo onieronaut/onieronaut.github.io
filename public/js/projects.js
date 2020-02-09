@@ -66,15 +66,15 @@ const projects = [
         tools: "HTML, CSS, Javascript"
     },
 
-    liri = {
-        name: "LIRI",
-        url: "https://github.com/onieronaut/liri-node-app",
-        github: "https://github.com/onieronaut/liri-node-app",
-        target: "liri",
-        description: "My first Node.js application, that allows a user to search for movie information, song information, or upcoming tour dates for a given band.",
-        image: "public/assets/img/liri.png",
-        tools: "Node.js"
-    },
+    // liri = {
+    //     name: "LIRI",
+    //     url: "https://github.com/onieronaut/liri-node-app",
+    //     github: "https://github.com/onieronaut/liri-node-app",
+    //     target: "liri",
+    //     description: "My first Node.js application, that allows a user to search for movie information, song information, or upcoming tour dates for a given band.",
+    //     image: "public/assets/img/liri.png",
+    //     tools: "Node.js"
+    // },
 
     bamazon = {
         name: "Bamazon",
@@ -106,6 +106,14 @@ const projects = [
         github: "https://github.com/onieronaut/unLeashed",
         description: "A Full Stack application for dog breeders and competitors to get information about upcoming events",
         image: "public/assets/img/unleashed.png",
-        tools: "HTML, CSS, Javascript, Node.js, Express, MySQL"
+        tools: "HTML, CSS, Javascript, Node.js, Express, MySQL, Handlebars"
+    },
+    techScraper = {
+        name: "Tech Scraper",
+        url: "https://mighty-depths-05922.herokuapp.com/",
+        githunb: "https://github.com/onieronaut/NewsScraper",
+        description: "A Full Stack application that scrapes technology news from Reuters",
+        image: "public/assets/img/techscraper.png",
+        tools: "HTML, CSS, Javascript, Node.js, Express, MongoDB, Handlebars"
     }
 ]
