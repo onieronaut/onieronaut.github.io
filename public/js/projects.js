@@ -76,14 +76,14 @@ const projects = [
     //     tools: "Node.js"
     // },
 
-    bamazon = {
-        name: "Bamazon",
-        url: "https://github.com/onieronaut/bamazon",
-        github: "https://github.com/onieronaut/bamazon",
-        description: "A Node.js application that interacts with a MySQL database to perform CRUD actions on a list of invetory items",
-        image: "public/assets/img/bamazon.png",
-        tools: "Node.js, MySQL"
-    },
+    // bamazon = {
+    //     name: "Bamazon",
+    //     url: "https://github.com/onieronaut/bamazon",
+    //     github: "https://github.com/onieronaut/bamazon",
+    //     description: "A Node.js application that interacts with a MySQL database to perform CRUD actions on a list of invetory items",
+    //     image: "public/assets/img/bamazon.png",
+    //     tools: "Node.js, MySQL"
+    // },
     // friendfinder = {
     //     name: "FriendFinder",
     //     url: "https://lit-sea-24490.herokuapp.com/",
@@ -115,5 +115,13 @@ const projects = [
         description: "A Full Stack application that scrapes technology news from Reuters",
         image: "public/assets/img/techscraper.png",
         tools: "HTML, CSS, Javascript, Node.js, Express, MongoDB, Handlebars"
+    },
+    clickGame = {
+        name: "Click Game",
+        url: "https://onieronaut.github.io/ClickGame/",
+        github: "https://github.com/onieronaut/ClickGame",
+        description: "A React game that tests your memory skills",
+        image: "public/assets/img/clickgame.png",
+        tools: "HTML, CSS, Javascript, React"
     }
 ]
